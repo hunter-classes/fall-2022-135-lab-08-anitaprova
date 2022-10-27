@@ -17,4 +17,4 @@ invert-half.o: invert-half.cpp invert-half.o
 box.o: box.cpp box.h
 
 clean:
-	rm -f main sample sample.o imageio.o main.o invert.o
+	rm -f main sample sample.o imageio.o main.o invert.o invert-half.o box.o
