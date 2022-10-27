@@ -4,6 +4,7 @@
 #include "invert.h"
 #include "invert-half.h"
 #include "box.h"
+#include "scale.h"
 
 int main() {
 	std::string file1 = "image1.pgm";
@@ -20,6 +21,11 @@ int main() {
 
 	//TASK C
 	box(file3, img, h, w);
+	
+	//TASK D
+
+	//TASK E
+	scale(file3, img, h, w);
 
 	return 0;
 }
