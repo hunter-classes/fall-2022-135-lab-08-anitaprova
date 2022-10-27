@@ -3,6 +3,7 @@
 #include "imageio.h"
 #include "invert.h"
 #include "invert-half.h"
+#include "box.h"
 
 int main() {
 	std::string file1 = "image1.pgm";
@@ -12,11 +13,13 @@ int main() {
 	int h, w;
 
 	//TASK A
-	//invert(file3, img, h, w);
+	invert(file3, img, h, w);
 	
-	//TASK B
-	
+	//TASK B	
 	invert_half(file3, img, h, w);
+
+	//TASK C
+	box(file3, img, h, w);
 
 	return 0;
 }
