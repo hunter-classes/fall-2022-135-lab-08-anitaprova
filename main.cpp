@@ -4,6 +4,7 @@
 #include "invert.h"
 #include "invert-half.h"
 #include "box.h"
+#include "frame.h"
 #include "scale.h"
 
 int main() {
@@ -23,7 +24,8 @@ int main() {
 	box(file3, img, h, w);
 	
 	//TASK D
-
+	frame(file3, img, h, w);
+	
 	//TASK E
 	scale(file3, img, h, w);
 
