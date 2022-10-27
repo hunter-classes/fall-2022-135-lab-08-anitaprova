@@ -6,6 +6,7 @@
 #include "box.h"
 #include "frame.h"
 #include "scale.h"
+#include "pixel.h"
 
 int main() {
 	std::string file1 = "image1.pgm";
@@ -29,5 +30,8 @@ int main() {
 	//TASK E
 	scale(file3, img, h, w);
 
+	//TASK F
+	pixel(file3, img, h, w);
+	
 	return 0;
 }
