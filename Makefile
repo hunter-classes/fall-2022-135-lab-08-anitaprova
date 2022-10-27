@@ -21,4 +21,4 @@ frame.o: frame.cpp frame.h
 scale.o: scale.cpp scale.h
 
 clean:
-	rm -f main sample sample.o imageio.o main.o invert.o invert-half.o box.o frame.h scale.o
+	rm -f main sample sample.o imageio.o main.o invert.o invert-half.o box.o frame.o scale.o
