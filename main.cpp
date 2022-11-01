@@ -4,29 +4,27 @@
 #include "funcs.h"
 
 int main() {
-	std::string file1 = "image1.pgm";
-	std::string file2 = "image2.pgm";
-	std::string file3 = "inImage.pgm";
+	std::string file = "inImage.pgm";
 	int img[MAX_H][MAX_W];
 	int h, w;
 
 	//TASK A
-	invert(file3, img, h, w);
+	invert(file, img, h, w);
 	
 	//TASK B	
-	invert_half(file3, img, h, w);
+	invert_half(file, img, h, w);
 
 	//TASK C
-	box(file3, img, h, w);
+	box(file, img, h, w);
 	
 	//TASK D
-	frame(file3, img, h, w);
+	frame(file, img, h, w);
 	
 	//TASK E
-	scale(file3, img, h, w);
+	scale(file, img, h, w);
 
 	//TASK F
-	pixel(file3, img, h, w);
+	pixel(file, img, h, w);
 	
 	return 0;
 }
