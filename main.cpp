@@ -1,12 +1,7 @@
 #include <iostream>
 #include <string>
 #include "imageio.h"
-#include "invert.h"
-#include "invert-half.h"
-#include "box.h"
-#include "frame.h"
-#include "scale.h"
-#include "pixel.h"
+#include "funcs.h"
 
 int main() {
 	std::string file1 = "image1.pgm";
